@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta author="NJIT"/>
+<meta encode="UTF-8"/>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=366955063470210&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="section">
+		<div id="container">
+			<div class="nav_bar">
+				<a href="index.html">Home</a>
+				<a href="#login">Login</a>
+				<a href="register.html">Sign Up</a>
+				<a href="about_us.html">About Us</a>
+			</div>
+		</div>
+	</div>
+	<div id="section">
+		<div class="login_form">
+			<form>
+				<fieldset>
+					<span>Username:</span><input type="text" id="username" name="Username"/>
+					<span>Password:</span><input type="password" id="password" name="password"/>
+		    	</fieldset>
+		    </form>
+		</div>
+		<div class="fb-login-button" data-max-rows="2" data-size="xlarge" data-show-faces="false" data-auto-logout-link="true"></div>
+		<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '366955063470210',
+      xfbml      : true,
+      version    : 'v2.1'
+    });
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
