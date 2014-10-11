@@ -11,7 +11,7 @@ public class GUIFrame extends JFrame
 		setSize(500,500);
 		setResizable(false);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setTitle("Challonge Mobile Demo");
+		setTitle("NJIT HackRU Chat");
 		setVisible(true);
 	}
 }
